@@ -116,12 +116,15 @@ button:hover{
 /* -------------------about onsite MTC and Infield MTC---------------------- */
 
 .onsite{
+    
     overflow: hidden;
     margin-top: 50px;
     margin-left: 20px;
     margin-bottom: 20px;
 }
 .onsite img {
+    width: 400px;
+    height: 300px;
     float: left;
     margin-right: 20px;
 }
@@ -133,6 +136,8 @@ button:hover{
     margin-bottom: 20px;
 }
 .infield img {
+    width: 400px;
+    height: 300px;
     float: right;
     margin-right: 20px;
     width: 35%;

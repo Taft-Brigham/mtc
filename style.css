@@ -212,59 +212,31 @@ body {
 
   /*----------------------------------styles for the about us page ------------------------ */
  
-  .timeline {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .event {
-    flex: 1;
-    text-align: center;
-  }
-  
-  .event img {
-    width: 300px;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  
-  
-  .department-hero {
-    position: relative;
-    margin-bottom: 20px;
-  }
-  
-  .department-hero img {
-    width: 100%;
-    border-radius: 8px;
-  }
-  
-  .teachers {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .teacher {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: white;
-  }
-  
-  .teacher img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-bottom: 5px;
-  }
-  
+.new-mtc {
+    overflow: auto;
+}
+.new-mtc img {
+    float: right;
+    width: 600px;
+    height: 500px;
+    margin-left: 20px;
+}
+.new-mtc p {
+    margin: 0;
+}
+.old-mtc {
+   overflow: auto;
+}
+.old-mtc img {
+    float: left;
+    width: 600px;
+    height: 500px;
+    margin-right: 20px;
+    margin-top: 70px; 
+}
+.old-mtc p {
+    margin: 0;
+}
 
   /*-------------------------- styles for the gallery page ----------------------------*/
   .gallery {
